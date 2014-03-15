@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		342CA2DF18D3ECC700EFA360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342CA2DE18D3ECC700EFA360 /* Foundation.framework */; };
+		342CA2E118D3ECC700EFA360 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342CA2E018D3ECC700EFA360 /* CoreGraphics.framework */; };
+		342CA2E318D3ECC700EFA360 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342CA2E218D3ECC700EFA360 /* UIKit.framework */; };
+		342CA2E918D3ECC700EFA360 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 342CA2E718D3ECC700EFA360 /* InfoPlist.strings */; };
+		342CA2EB18D3ECC700EFA360 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 342CA2EA18D3ECC700EFA360 /* main.m */; };
+		342CA2EF18D3ECC700EFA360 /* MCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 342CA2EE18D3ECC700EFA360 /* MCAppDelegate.m */; };
+		342CA2F218D3ECC700EFA360 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342CA2F018D3ECC700EFA360 /* Main.storyboard */; };
+		342CA2F518D3ECC700EFA360 /* MCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342CA2F418D3ECC700EFA360 /* MCViewController.m */; };
+		342CA2F718D3ECC700EFA360 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342CA2F618D3ECC700EFA360 /* Images.xcassets */; };
+		342CA2FE18D3ECC800EFA360 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342CA2FD18D3ECC800EFA360 /* XCTest.framework */; };
+		342CA2FF18D3ECC800EFA360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342CA2DE18D3ECC700EFA360 /* Foundation.framework */; };
+		342CA30018D3ECC800EFA360 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342CA2E218D3ECC700EFA360 /* UIKit.framework */; };
+		342CA30818D3ECC800EFA360 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 342CA30618D3ECC800EFA360 /* InfoPlist.strings */; };
+		342CA30A18D3ECC800EFA360 /* MCNumberLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 342CA30918D3ECC800EFA360 /* MCNumberLabelDemoTests.m */; };
+		342CA31B18D3F8A800EFA360 /* MCNumberLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 342CA31A18D3F8A800EFA360 /* MCNumberLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		342CA30118D3ECC800EFA360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 342CA2D318D3ECC700EFA360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 342CA2DA18D3ECC700EFA360;
+			remoteInfo = MCNumberLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		342CA2DB18D3ECC700EFA360 /* MCNumberLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCNumberLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342CA2DE18D3ECC700EFA360 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		342CA2E018D3ECC700EFA360 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		342CA2E218D3ECC700EFA360 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		342CA2E618D3ECC700EFA360 /* MCNumberLabelDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCNumberLabelDemo-Info.plist"; sourceTree = "<group>"; };
+		342CA2E818D3ECC700EFA360 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		342CA2EA18D3ECC700EFA360 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		342CA2EC18D3ECC700EFA360 /* MCNumberLabelDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCNumberLabelDemo-Prefix.pch"; sourceTree = "<group>"; };
+		342CA2ED18D3ECC700EFA360 /* MCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCAppDelegate.h; sourceTree = "<group>"; };
+		342CA2EE18D3ECC700EFA360 /* MCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCAppDelegate.m; sourceTree = "<group>"; };
+		342CA2F118D3ECC700EFA360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		342CA2F318D3ECC700EFA360 /* MCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCViewController.h; sourceTree = "<group>"; };
+		342CA2F418D3ECC700EFA360 /* MCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCViewController.m; sourceTree = "<group>"; };
+		342CA2F618D3ECC700EFA360 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		342CA2FC18D3ECC800EFA360 /* MCNumberLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCNumberLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		342CA2FD18D3ECC800EFA360 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		342CA30518D3ECC800EFA360 /* MCNumberLabelDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCNumberLabelDemoTests-Info.plist"; sourceTree = "<group>"; };
+		342CA30718D3ECC800EFA360 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		342CA30918D3ECC800EFA360 /* MCNumberLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCNumberLabelDemoTests.m; sourceTree = "<group>"; };
+		342CA31918D3F8A800EFA360 /* MCNumberLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCNumberLabel.h; path = ../../MCNumberLabel/MCNumberLabel.h; sourceTree = "<group>"; };
+		342CA31A18D3F8A800EFA360 /* MCNumberLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCNumberLabel.m; path = ../../MCNumberLabel/MCNumberLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		342CA2D818D3ECC700EFA360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342CA2E118D3ECC700EFA360 /* CoreGraphics.framework in Frameworks */,
+				342CA2E318D3ECC700EFA360 /* UIKit.framework in Frameworks */,
+				342CA2DF18D3ECC700EFA360 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342CA2F918D3ECC800EFA360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342CA2FE18D3ECC800EFA360 /* XCTest.framework in Frameworks */,
+				342CA30018D3ECC800EFA360 /* UIKit.framework in Frameworks */,
+				342CA2FF18D3ECC800EFA360 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		342CA2D218D3ECC700EFA360 = {
+			isa = PBXGroup;
+			children = (
+				342CA2E418D3ECC700EFA360 /* MCNumberLabelDemo */,
+				342CA30318D3ECC800EFA360 /* MCNumberLabelDemoTests */,
+				342CA2DD18D3ECC700EFA360 /* Frameworks */,
+				342CA2DC18D3ECC700EFA360 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		342CA2DC18D3ECC700EFA360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				342CA2DB18D3ECC700EFA360 /* MCNumberLabelDemo.app */,
+				342CA2FC18D3ECC800EFA360 /* MCNumberLabelDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		342CA2DD18D3ECC700EFA360 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				342CA2DE18D3ECC700EFA360 /* Foundation.framework */,
+				342CA2E018D3ECC700EFA360 /* CoreGraphics.framework */,
+				342CA2E218D3ECC700EFA360 /* UIKit.framework */,
+				342CA2FD18D3ECC800EFA360 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		342CA2E418D3ECC700EFA360 /* MCNumberLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				342CA31818D3ED6300EFA360 /* MCNumberLabel */,
+				342CA31318D3ED4000EFA360 /* App Delegate */,
+				342CA31418D3ED4A00EFA360 /* View Controllers */,
+				342CA2F618D3ECC700EFA360 /* Images.xcassets */,
+				342CA2E518D3ECC700EFA360 /* Supporting Files */,
+			);
+			path = MCNumberLabelDemo;
+			sourceTree = "<group>";
+		};
+		342CA2E518D3ECC700EFA360 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				342CA2E618D3ECC700EFA360 /* MCNumberLabelDemo-Info.plist */,
+				342CA2E718D3ECC700EFA360 /* InfoPlist.strings */,
+				342CA2EA18D3ECC700EFA360 /* main.m */,
+				342CA2EC18D3ECC700EFA360 /* MCNumberLabelDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		342CA30318D3ECC800EFA360 /* MCNumberLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				342CA30918D3ECC800EFA360 /* MCNumberLabelDemoTests.m */,
+				342CA30418D3ECC800EFA360 /* Supporting Files */,
+			);
+			path = MCNumberLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		342CA30418D3ECC800EFA360 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				342CA30518D3ECC800EFA360 /* MCNumberLabelDemoTests-Info.plist */,
+				342CA30618D3ECC800EFA360 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		342CA31318D3ED4000EFA360 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				342CA2ED18D3ECC700EFA360 /* MCAppDelegate.h */,
+				342CA2EE18D3ECC700EFA360 /* MCAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		342CA31418D3ED4A00EFA360 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				342CA2F018D3ECC700EFA360 /* Main.storyboard */,
+				342CA2F318D3ECC700EFA360 /* MCViewController.h */,
+				342CA2F418D3ECC700EFA360 /* MCViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		342CA31818D3ED6300EFA360 /* MCNumberLabel */ = {
+			isa = PBXGroup;
+			children = (
+				342CA31918D3F8A800EFA360 /* MCNumberLabel.h */,
+				342CA31A18D3F8A800EFA360 /* MCNumberLabel.m */,
+			);
+			name = MCNumberLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		342CA2DA18D3ECC700EFA360 /* MCNumberLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342CA30D18D3ECC800EFA360 /* Build configuration list for PBXNativeTarget "MCNumberLabelDemo" */;
+			buildPhases = (
+				342CA2D718D3ECC700EFA360 /* Sources */,
+				342CA2D818D3ECC700EFA360 /* Frameworks */,
+				342CA2D918D3ECC700EFA360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCNumberLabelDemo;
+			productName = MCNumberLabelDemo;
+			productReference = 342CA2DB18D3ECC700EFA360 /* MCNumberLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		342CA2FB18D3ECC800EFA360 /* MCNumberLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342CA31018D3ECC800EFA360 /* Build configuration list for PBXNativeTarget "MCNumberLabelDemoTests" */;
+			buildPhases = (
+				342CA2F818D3ECC800EFA360 /* Sources */,
+				342CA2F918D3ECC800EFA360 /* Frameworks */,
+				342CA2FA18D3ECC800EFA360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				342CA30218D3ECC800EFA360 /* PBXTargetDependency */,
+			);
+			name = MCNumberLabelDemoTests;
+			productName = MCNumberLabelDemoTests;
+			productReference = 342CA2FC18D3ECC800EFA360 /* MCNumberLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		342CA2D318D3ECC700EFA360 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Matthew Cheok";
+				TargetAttributes = {
+					342CA2FB18D3ECC800EFA360 = {
+						TestTargetID = 342CA2DA18D3ECC700EFA360;
+					};
+				};
+			};
+			buildConfigurationList = 342CA2D618D3ECC700EFA360 /* Build configuration list for PBXProject "MCNumberLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 342CA2D218D3ECC700EFA360;
+			productRefGroup = 342CA2DC18D3ECC700EFA360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				342CA2DA18D3ECC700EFA360 /* MCNumberLabelDemo */,
+				342CA2FB18D3ECC800EFA360 /* MCNumberLabelDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		342CA2D918D3ECC700EFA360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342CA2F718D3ECC700EFA360 /* Images.xcassets in Resources */,
+				342CA2E918D3ECC700EFA360 /* InfoPlist.strings in Resources */,
+				342CA2F218D3ECC700EFA360 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342CA2FA18D3ECC800EFA360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342CA30818D3ECC800EFA360 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		342CA2D718D3ECC700EFA360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342CA2EF18D3ECC700EFA360 /* MCAppDelegate.m in Sources */,
+				342CA2F518D3ECC700EFA360 /* MCViewController.m in Sources */,
+				342CA2EB18D3ECC700EFA360 /* main.m in Sources */,
+				342CA31B18D3F8A800EFA360 /* MCNumberLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342CA2F818D3ECC800EFA360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342CA30A18D3ECC800EFA360 /* MCNumberLabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		342CA30218D3ECC800EFA360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 342CA2DA18D3ECC700EFA360 /* MCNumberLabelDemo */;
+			targetProxy = 342CA30118D3ECC800EFA360 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		342CA2E718D3ECC700EFA360 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342CA2E818D3ECC700EFA360 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		342CA2F018D3ECC700EFA360 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342CA2F118D3ECC700EFA360 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		342CA30618D3ECC800EFA360 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342CA30718D3ECC800EFA360 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		342CA30B18D3ECC800EFA360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		342CA30C18D3ECC800EFA360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		342CA30E18D3ECC800EFA360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCNumberLabelDemo/MCNumberLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "MCNumberLabelDemo/MCNumberLabelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		342CA30F18D3ECC800EFA360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCNumberLabelDemo/MCNumberLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "MCNumberLabelDemo/MCNumberLabelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		342CA31118D3ECC800EFA360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MCNumberLabelDemo.app/MCNumberLabelDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCNumberLabelDemo/MCNumberLabelDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MCNumberLabelDemoTests/MCNumberLabelDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		342CA31218D3ECC800EFA360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MCNumberLabelDemo.app/MCNumberLabelDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCNumberLabelDemo/MCNumberLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "MCNumberLabelDemoTests/MCNumberLabelDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		342CA2D618D3ECC700EFA360 /* Build configuration list for PBXProject "MCNumberLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342CA30B18D3ECC800EFA360 /* Debug */,
+				342CA30C18D3ECC800EFA360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342CA30D18D3ECC800EFA360 /* Build configuration list for PBXNativeTarget "MCNumberLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342CA30E18D3ECC800EFA360 /* Debug */,
+				342CA30F18D3ECC800EFA360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		342CA31018D3ECC800EFA360 /* Build configuration list for PBXNativeTarget "MCNumberLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342CA31118D3ECC800EFA360 /* Debug */,
+				342CA31218D3ECC800EFA360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 342CA2D318D3ECC700EFA360 /* Project object */;
+}
