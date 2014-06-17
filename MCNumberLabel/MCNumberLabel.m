@@ -51,6 +51,7 @@
     CGFloat progress = ([self.displayLink timestamp] - self.startTime)/self.duration;
     if (progress >= 1) {
         [self setValue:self.endNumber];
+        [self.displayLink removeFromRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
     }
     else {
         NSNumber *value = @(progress * [self.endNumber doubleValue] + (1-progress) * [self.startNumber doubleValue]);
