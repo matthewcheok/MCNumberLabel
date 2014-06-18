@@ -76,6 +76,7 @@
     self.duration = duration;
     self.startTime = CACurrentMediaTime();
     
+    [self.displayLink invalidate];
     self.displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(animateValue)];
     [self.displayLink addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
 }
